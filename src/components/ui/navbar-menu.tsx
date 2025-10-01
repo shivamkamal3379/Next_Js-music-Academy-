@@ -2,7 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-// ✅ Transition for fade/opacity/scale
+//  Transition for fade/opacity/scale
 const transition = {
   duration: 0.3,
 };
@@ -35,7 +35,7 @@ export const MenuItem = ({
             scale: 1,
             y: 0,
             transition: {
-              type: "spring", // ✅ spring belongs inside animate
+              type: "spring", // spring belongs inside animate
               mass: 0.5,
               damping: 11.5,
               stiffness: 100,
@@ -52,7 +52,7 @@ export const MenuItem = ({
                 className="bg-white dark:bg-black backdrop-blur-sm rounded-2xl overflow-hidden border border-black/[0.2] dark:border-white/[0.2] shadow-xl"
                 animate={{
                   transition: {
-                    type: "spring", // ✅ fixed here too
+                    type: "spring", //  fixed spring  here too
                     mass: 0.5,
                     damping: 11.5,
                     stiffness: 100,
